@@ -49,8 +49,8 @@ export default () => {
     <List
       filtering={false}
       onSearchTextChange={setSearchText}
-      navigationTitle="Availability"
-      searchBarPlaceholder="Search for availability status"
+      navigationTitle="Change Availability"
+      searchBarPlaceholder="Search availability statuses"
     >
       {filteredList.map((item) => (
         <List.Item
